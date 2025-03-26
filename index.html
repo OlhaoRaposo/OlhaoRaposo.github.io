@@ -1,71 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Arquivos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #5865F2;
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #7289da;
-            font-size: 1.1rem;
-            font-weight: 700;
-            background-color: #ffffff;
-            padding: 10px 20px;
-            border-radius: 20px;
-            transition: all 0.3s ease;
-        }
-        a:hover {
-            background-color: #7289da;
-            color: #ffffff;
-            transform: scale(1.1);
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #99aab5;
-        }
-    </style>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="my_git_pages">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>my_git_pages</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <h1>Bem-vindo ao Meu Espaço</h1>
-    <p>Acesse seus arquivos clicando nos links abaixo:</p>
-    <ul>
-        <li><a href="arquivo1.html" target="_blank">Arquivo 1</a></li>
-        <li><a href="arquivo2.html" target="_blank">Arquivo 2</a></li>
-        <li><a href="pasta/arquivo3.html" target="_blank">Arquivo 3 (em uma pasta)</a></li>
-    </ul>
-    <footer>
-        <p>&copy; 2024 Meu GitHub Pages</p>
-    </footer>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
